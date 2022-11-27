@@ -12,6 +12,11 @@
     --mainwidth: calc(100% - 15%);
 }
 
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 nav img {
     display: inline;
     margin-top: 10px;
