@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(31, 88, 31);
+    --secondary: rgb(56, 104, 56);
+    --tertiary: rgb(116, 162, 116);
+    --quaternary: rgb(222, 231, 222);
+    --mainwidth: calc(100% - 15%);
+}
+
+nav img {
+    display: inline;
+    margin-top: 10px;
+    width: 30px;
+
+}
+
+nav {
+    width: var(--mainwidth);
+    height: 100px;
+    margin: 0 auto;
+    background-color: var(--primary);
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+
+nav a {
+    font-weight: bold;
+    color: var(--quaternary);
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+}
+
+.profilename {
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+    color: white;
+}
+
+nav ul {
+    text-align: end;
+    padding: 10px 10px;
+}
+
+header {
+    width: var(--mainwidth);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.header-el>img {
+    margin-top: 30px;
+    width: calc(100% - 40%);
+}
+
+.header-el {
+    width: calc(100%-400px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-el h1 {
+    color: var(--secondary);
+    text-align: center;
+}
+
+
+h2 {
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+
+.projects,
+.blogs,
+.technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: var(--mainwidth);
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.technologies,
+.blogs {
+    background-color: var(--quaternary);
+}
+
+.technologies {
+    margin-top: 40px;
+}
+
+
+footer {
+    width: var(--mainwidth);
+    height: 120px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: var(--primary);
+    border-top-right-radius: 10px;
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+
+footer ul {
+    list-style: none;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+footer li {
+    display: inline;
+    padding: 10px 10px;
+}
+
+button {
+    margin: 10px 10px;
+    padding: 8px 8px;
+    border-radius: 15px;
+
+}
+
+.projects>button {
+    color: white;
+    background-color: var(--primary);
+    border: none;
+}
+
+.blogs>button {
+    background-color: var(--quaternary);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+
+}
