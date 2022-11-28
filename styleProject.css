@@ -34,7 +34,7 @@ nav {
     position: relative;
 }
 
-nav a {
+.name {
     font-weight: bold;
     color: var(--quaternary);
     text-decoration: none;
@@ -61,6 +61,43 @@ nav ul {
     padding: 10px 10px;
 }
 
+.nav-headings {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    width: var(--mainwidth);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+
+
+.header-el>img {
+    margin-top: 30px;
+    width: calc(100% - 40%);
+}
+
+.header-el {
+    width: calc(100%-400px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-el h1 {
+    color: var(--secondary);
+    text-align: center;
+}
+
+
 
 h2 {
     color: black;
@@ -78,13 +115,22 @@ h2 {
     justify-content: center;
     align-items: center;
     width: var(--mainwidth);
-    height: 200px;
-    margin: 0 auto;
+    height: 100vh;
+    margin: 20px auto;
     text-align: center;
     border-radius: 5px;
 }
 
+.mark-one {
 
+    width: var(--mainwidth);
+    height: 200px;
+    margin: 0 auto;
+    background-color: var(--quaternary);
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
 
 
 footer {
@@ -118,8 +164,30 @@ footer li {
 }
 
 button {
+    width: 100px;
     margin: 10px 10px;
     padding: 8px 8px;
     border-radius: 15px;
+}
 
+.live-btn {
+    color: white;
+    background-color: var(--primary);
+
+}
+
+.project-btn {
+    background-color: var(--quaternary);
+    color: var(--primary);
+
+}
+
+.live {
+    text-decoration: none;
+    color: white;
+}
+
+.source {
+    text-decoration: none;
+    color: var(--primary);
 }
