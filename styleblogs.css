@@ -61,7 +61,6 @@ nav ul {
     padding: 10px 10px;
 }
 
-
 .nav-headings {
     color: white;
     text-decoration: none;
@@ -76,9 +75,12 @@ header {
 
 }
 
+
+
 .header-el>img {
     margin-top: 30px;
     width: calc(100% - 40%);
+    margin-bottom: 20px;
 }
 
 .header-el {
@@ -94,7 +96,9 @@ header {
 .header-el h1 {
     color: var(--secondary);
     text-align: center;
+    padding: 20px 20px;
 }
+
 
 
 h2 {
@@ -107,30 +111,37 @@ h2 {
 
 
 
-.projects,
-.blogs,
-.technologies {
+.projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: var(--mainwidth);
-    height: 200px;
-    margin: 0 auto;
+    height: 100vh;
+    margin: 20px auto;
     text-align: center;
     border-radius: 5px;
 }
 
+.blog {
 
-.technologies,
-.blogs {
+    width: var(--mainwidth);
+    height: 200px;
+    margin: 10px auto;
     background-color: var(--quaternary);
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: relative;
+
 }
 
-.technologies {
-    margin-top: 40px;
-}
 
+
+.blog>p {
+    text-align: center;
+}
 
 footer {
     width: var(--mainwidth);
@@ -162,25 +173,31 @@ footer li {
     padding: 10px 10px;
 }
 
-
-
-.projects>button {
-    color: white;
-    background-color: var(--primary);
-}
-
-.blogs>button {
-    background-color: var(--quaternary);
-    color: var(--primary);
-    border: 1px solid var(--primary);
-
-}
-
 button {
     width: 100px;
     margin: 10px 10px;
     padding: 8px 8px;
     border-radius: 15px;
+}
 
+.live-btn {
+    color: white;
+    background-color: var(--primary);
 
+}
+
+.project-btn {
+    background-color: var(--quaternary);
+    color: var(--primary);
+
+}
+
+.live {
+    text-decoration: none;
+    color: white;
+}
+
+.source {
+    text-decoration: none;
+    color: var(--primary);
 }
