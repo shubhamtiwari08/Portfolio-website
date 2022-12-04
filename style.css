@@ -184,3 +184,19 @@ button {
 
 
 }
+
+.blog-link {
+    color: var(--primary);
+    text-decoration: none;
+
+}
+
+.project-link {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links {
+    color: white;
+    text-decoration: none;
+}

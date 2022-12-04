@@ -182,6 +182,11 @@ button {
 
 }
 
+.social-links {
+    color: white;
+    text-decoration: none;
+}
+
 .live {
     text-decoration: none;
     color: white;
