@@ -137,13 +137,6 @@ h2 {
 
 }
 
-.readmore {
-    background-color: var(--primary);
-    color: white;
-
-    width: 120px;
-    height: 30px;
-}
 
 
 .blog>p {
@@ -185,6 +178,11 @@ button {
     margin: 10px 10px;
     padding: 8px 8px;
     border-radius: 15px;
+}
+
+.blog-link {
+    text-decoration: none;
+    color: var(--primary);
 }
 
 .live-btn {
