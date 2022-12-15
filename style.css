@@ -167,6 +167,7 @@ footer li {
 .projects>button {
     color: white;
     background-color: var(--primary);
+    border: 1px solid rgb(31, 88, 31);
 }
 
 .blogs>button {
@@ -182,8 +183,9 @@ button {
     padding: 8px 8px;
     border-radius: 15px;
 
-
 }
+
+
 
 .blog-link {
     color: var(--primary);

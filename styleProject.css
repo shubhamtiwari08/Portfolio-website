@@ -173,13 +173,14 @@ button {
 .live-btn {
     color: white;
     background-color: var(--primary);
+    border: 1px solid rgb(31, 88, 31);
 
 }
 
-.project-btn {
+.source-btn {
     background-color: var(--quaternary);
     color: var(--primary);
-
+    border: 1px solid rgb(31, 88, 31);
 }
 
 .social-links {

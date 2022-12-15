@@ -137,11 +137,17 @@ h2 {
 
 }
 
+.para-blog {
+    width: var(--mainwidth);
+    margin: auto;
+    height: 25%;
+    overflow-y: hidden;
 
-
-.blog>p {
-    text-align: center;
 }
+
+
+
+
 
 footer {
     width: var(--mainwidth);
